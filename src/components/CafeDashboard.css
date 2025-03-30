@@ -1,0 +1,103 @@
+.cafe-dashboard {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    width: 200px; /* Fixed width for the tab menu */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab-button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    flex: 1; /* Takes the remaining space */
+    padding: 20px;
+  }
+  
+  .tables-container,
+  .orders-container,
+  .billing-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table-card,
+  .order-details,
+  .billing-details {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+  }
+  
+  .table-title,
+  .orders-title,
+  .billing-title {
+    font-size: 1.5em;
+  }
+  
+  .table-info {
+    margin-bottom: 10px;
+  }
+  
+  .table-controls {
+    margin-bottom: 10px;
+  }
+  
+  .control-button,
+  .merge-button,
+  .split-button,
+  .place-order-button,
+  .view-details-button,
+  .pay-bill-button,
+  .process-order-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .merge-select {
+    margin: 10px 0;
+  }
+  
+  .order-section {
+    margin-top: 10px;
+  }
+  
+  .order-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .order-input {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  .bill-item-details {
+    margin-top: 10px;
+  }
+  
+  .item-details-title {
+    font-weight: bold;
+  }
