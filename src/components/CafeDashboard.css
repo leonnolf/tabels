@@ -1,103 +1,103 @@
 .cafe-dashboard {
     display: flex;
     flex-direction: row;
-  }
-  
-  .dashboard-title {
+}
+
+.dashboard-title {
     text-align: center;
     width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .tabs {
-    width: 200px; /* Fixed width for the tab menu */
+    margin-bottom: 1.25rem;
+}
+
+.tabs {
+    width: 12.5rem;
     display: flex;
     flex-direction: column;
-  }
-  
-  .tab-button {
-    padding: 10px;
+}
+
+.tab-button {
+    padding: 0.625rem;
     background-color: #f0f0f0;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     border: none;
     cursor: pointer;
-  }
-  
-  .content {
-    flex: 1; /* Takes the remaining space */
-    padding: 20px;
-  }
-  
-  .tables-container,
-  .orders-container,
-  .billing-container {
+}
+
+.content {
+    flex: 1;
+    padding: 1.25rem;
+}
+
+.tables-container,
+.orders-container,
+.billing-container {
     display: flex;
     flex-direction: column;
-  }
-  
-  .table-card,
-  .order-details,
-  .billing-details {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-  }
-  
-  .table-title,
-  .orders-title,
-  .billing-title {
-    font-size: 1.5em;
-  }
-  
-  .table-info {
-    margin-bottom: 10px;
-  }
-  
-  .table-controls {
-    margin-bottom: 10px;
-  }
-  
-  .control-button,
-  .merge-button,
-  .split-button,
-  .place-order-button,
-  .view-details-button,
-  .pay-bill-button,
-  .process-order-button {
-    padding: 5px 10px;
-    margin-right: 5px;
+}
+
+.table-card,
+.order-details,
+.billing-details {
+    border: 0.0625rem solid #ccc;
+    padding: 0.9375rem;
+    margin-bottom: 0.9375rem;
+    border-radius: 0.5rem;
+}
+
+.table-title,
+.orders-title,
+.billing-title {
+    font-size: 1.5rem;
+}
+
+.table-info {
+    margin-bottom: 0.625rem;
+}
+
+.table-controls {
+    margin-bottom: 0.625rem;
+}
+
+.control-button,
+.merge-button,
+.split-button,
+.place-order-button,
+.view-details-button,
+.pay-bill-button,
+.process-order-button {
+    padding: 0.3125rem 0.625rem;
+    margin-right: 0.3125rem;
     cursor: pointer;
-  }
-  
-  .merge-select {
-    margin: 10px 0;
-  }
-  
-  .order-section {
-    margin-top: 10px;
-  }
-  
-  .order-title {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-  }
-  
-  .order-item {
+}
+
+.merge-select {
+    margin: 0.625rem 0;
+}
+
+.order-section {
+    margin-top: 0.625rem;
+}
+
+.order-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.3125rem;
+}
+
+.order-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .order-input {
-    width: 50px;
-    padding: 5px;
-  }
-  
-  .bill-item-details {
-    margin-top: 10px;
-  }
-  
-  .item-details-title {
+}
+
+.order-input {
+    width: 3.125rem;
+    padding: 0.3125rem;
+}
+
+.bill-item-details {
+    margin-top: 0.625rem;
+}
+
+.item-details-title {
     font-weight: bold;
-  }
+}
